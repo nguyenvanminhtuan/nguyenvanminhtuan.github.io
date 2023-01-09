@@ -1,0 +1,93 @@
+baseURL = 'https://nguyenvanminhtuan.github.io'
+languageCode = 'vi-VN'
+theme = "cactus"
+title = 'NgVanMinhTuan'
+
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Trang chủ"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Bài viết"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About me"
+url = "/about"
+weight = 3
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+
+  colortheme = "white" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+  googleAnalytics = 'G-ZS86WRMB97'
+  showAllPostsArchive = false # default
+
+  # Home page settings
+  description = """Note của Tuấn!!
+  """
+
+  
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true # show tags overview by default.
+  showProjectsList = false # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/nguyenvanminhtuan" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+  # Section
+  mainSectionTitle = 'Bài viết'
+  mainSection = "posts" # your main section
+
+  [markup.goldmark.renderer]
+  unsafe= true
+
+  [params.comments]
+    enabled = true # default
+    engine = "utterances" # only disqus, utterances, and cactus_comments is supported
+    [params.comments.utterances]
+      repo = "nguyenvanminhtuan/nguyenvanminhtuan.github.io"
+      label = "NgVanMinhTuan" # you can use however you want to label your name in your repo's issues
+      theme = "github-light"
+    [params.comments.cactuscomments]
+      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
+      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+      #serverName = "" # Defaults to cactus.chat
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/nguyenvanminhtuan"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/tuan_nvm"
+  [[params.social]]
+    name = "email"
+    link = "tuan01102000@gmail.com"  # no need for "mailto:" in the head

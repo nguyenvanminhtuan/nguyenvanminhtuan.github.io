@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "9b2427ed09256b05",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9d68cebb18511be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c86d1b0c58884cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/niem-vui-nho.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62ced7a2ef01b353",
+    "type": "split",
+    "children": [
+      {
+        "id": "e190cbccb7e6d345",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7364c4266c61d709",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eda58a275674e3f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f0ac68702a94e226",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5c921b4e8acf4a24",
+    "type": "split",
+    "children": [
+      {
+        "id": "2398e8b6f102283b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bbeb609649003f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/niem-vui-nho.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "59cc06abff957fa0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/niem-vui-nho.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ff8bb3b5452d685f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2786c6cf582a9091",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/niem-vui-nho.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1c86d1b0c58884cc",
+  "lastOpenFiles": [
+    "images/op_nhi_tang.md",
+    "posts/niem-vui-nho.md",
+    "posts/musics/mot-chut-buon.md",
+    "images/op_nhi_tang.jpg.md",
+    "posts/vai-dong-ghi-chu-va-du-dinh-2023.md",
+    "posts/vai-dong-ghi-chu-va-du-dinh-2022.md",
+    "about/index.md"
+  ]
+}
